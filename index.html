@@ -5,12 +5,140 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <style>
+	    body {
+			overflow-y: scroll;
+			overflow-x: hidden !important;
+			height: 100%;
+		}
+
+		#maindiv {
+			background: white;
+		}
+
+		#numberimg {
+			max-width: 70%;
+			
+		}
+
+
+		#orangetop {
+			height: 20%;
+			background: #ff7b00;
+			text-align: center;
+		}
+
+		#interiordiv {
+			box-shadow: 0 0 1em black;
+		}
+
+		#greeting {
+			text-align: center;
+		}
+
+		#adurcup {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 50px;
+			font-weight: bolder;
+		}
+
+		#wishesyou {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 30px;
+			font-weight: bolder;
+			color: #ff7b00;
+		}
+		
+
+		#happynewyear {
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 60px;
+			font-weight: bolder;
+			color: #ff7b00;
+		}
+		
+
+
+
+		@media only screen and (min-device-width: 375px) and (max-device-width: 425px) {
+			#adurcup {
+				font-size: 30px;
+			}
+
+			#wishesyou {
+				font-size: 20px;
+			}
+
+			#happynewyear {
+				font-size: 35px;
+			}
+
+		}
+
+
+		@media only screen and (min-device-width: 320px) and (max-device-width: 375px) {
+			#adurcup {
+				font-size: 30px;
+			}
+
+			#wishesyou {
+				font-size: 17px;
+			}
+
+			#happynewyear {
+				font-size: 32px;
+			}
+
+		}
+
+
+		@media only screen and (min-device-width: 425px) and (max-device-width: 768px) {
+			#adurcup {
+				font-size: 30px;
+			}
+
+			#wishesyou {
+				font-size: 20px;
+			}
+
+			#happynewyear {
+				font-size: 40px;
+			}
+
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+			
+
+		}
+
+
+		@media only screen and (min-width: 1024px) and (max-width: 1400px) {
+			
+
+		}
+    </style>
 </head>
 <body>
 	<div id="maindiv">
-		<div id="#orangetop">
-			<img src="2017.png" id="numberimg">
+		<div id="interiordiv">
+			<div id="orangetop">
+				<img src="2017.png" id="numberimg">
+			</div>
+			<div id="greeting">
+				<div id="adurcup">
+					ADURCUP
+				</div>
+				<div id="wishesyou">
+					WISHES YOU
+				</div>
+				<div id="happynewyear">
+					HAPPY NEW YEAR
+				</div>
+			</div>
+			<!--div class="adurlogo">
+				<img src="adurcup_black.png" id="blacklogo">
+			</div-->
 		</div>
 	</div>
 </body>
